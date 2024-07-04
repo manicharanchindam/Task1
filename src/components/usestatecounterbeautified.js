@@ -46,7 +46,7 @@ function Counter() {
         <Button
           variant="contained"
           startIcon={<RemoveIcon />}
-          onClick={() => setCount(count + 1)}
+          onClick={() => setCount(count - 1)}
           sx={{
             backgroundColor: "#01b4e4",
             "&:hover": { backgroundColor: "#0d253f" },
